@@ -32,6 +32,7 @@ SOURCES_C += \
 	file/file_path.c \
 	file/file_path_io.c \
 	file/retro_dirent.c \
+	formats/png/rpng.o \
 	libco/libco.c \
 	lists/string_list.c \
 	memmap/memalign.c \
@@ -39,6 +40,9 @@ SOURCES_C += \
 	streams/file_stream_transforms.c \
 	streams/interface_stream.c \
 	streams/memory_stream.c \
+	streams/trans_stream.o \
+	streams/trans_stream_pipe.o \
+	streams/trans_stream_zlib.o \
 	string/stdstring.c \
 	time/rtime.c \
 	utils/md5.c \
